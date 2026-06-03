@@ -21,6 +21,6 @@
             @endif 
         </div> 
     @empty 
-        <p>No hay productos cargados.</p> 
+        <p>No hay productos en este momento intentelo mas tarde.Gracias </p> 
     @endforelse 
 @endsection 
