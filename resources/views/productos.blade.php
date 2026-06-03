@@ -12,6 +12,10 @@
             <h3>{{ $producto['nombre'] }}</h3> 
  
             <p>Precio: ${{ $producto['precio'] }}</p> 
+
+            @if($producto['precio'] > 3000) 
+            <p>★ Producto destacado</p> 
+            @endif 
  
             @if($producto['stock'] > 0) 
                 <p class="con-stock">Stock disponible: {{ $producto['stock'] 
