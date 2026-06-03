@@ -41,3 +41,7 @@ Route::get('/contacto', function () {
         'email' => $email, 
     ]); 
 }); 
+
+Route::get('/nosotros', function () {
+    return view('nosotros');
+});
