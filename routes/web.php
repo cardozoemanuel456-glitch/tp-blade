@@ -23,6 +23,11 @@ Route::get('/productos', function () {
             'precio' => 3200, 
             'stock' => 0, 
         ], 
+        [
+            'nombre' => 'Azucar',
+            'precio' => 2000,
+            'stock' => 30,
+        ]
     ]; 
  
     return view('productos', [ 
